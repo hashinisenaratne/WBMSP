@@ -1,0 +1,36 @@
+-----------------------------------------------------------------------------------------------------------------
+					WATER BOARD MANAGEMENT SYSTEM
+-----------------------------------------------------------------------------------------------------------------
+
+1.System requirements
+......................
+
+Operating System	Windows XP,Vista,7
+
+.net version		Microsoft .net version 4.0 or later 
+			(download from http://www.microsoft.com/net/download)
+
+MySQL connecter		MySQL Connecter Net 6.4.4 
+			(http://dev.mysql.com/downloads/mirror.php?id=403991#mirrors)
+
+
+2.Login deatails for testing
+............................
+
+This software handles 5 types of stake holders who have different priviledge levels. Please use the following login
+details for testing.
+
+	Stakeholder			User Name		Password
+	-----------			---------		-------- 
+	Administrator			isoft			cse2012
+	Customer			1000000			customer
+	Data Entry Operator		data entry		data
+	Customer Related Officer	cust officer		cust
+	zonal Officer			zone officer		zonal
+
+----------------------------------------------------------------------------------------------------------------
+(c)iSoft Solutions 2012
+----------------------------------------------------------------------------------------------------------------
+
+
+

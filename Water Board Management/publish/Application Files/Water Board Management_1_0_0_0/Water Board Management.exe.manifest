@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Water Board Management.exe" version="1.0.0.0" publicKeyToken="3c72dc10a8048eb4" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Water Board Management" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Water Board Management.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Water Board Management.exe" size="367616">
+      <assemblyIdentity name="Water Board Management" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BBp7U4R/jh342QjevDRulbfqZwM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Yasura-Laptop\Yasura" issuerKeyHash="4e5f5eded2ba547966ff239ae90bbbfc0bef6eb2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Yl94ZTXc682IfmHLBQrmbmNr4PA=</DigestValue></Reference></SignedInfo><SignatureValue>JbnA4eUmcpVUDkEccHMiz0nrWZ33lojUBey2kKTsTE0JF0hoz6RnyTM00NFUkq/6v3E7legTmEHppdWHWXIsJjsEKymXaggiQ0X3kudR/ew7p1DeGPtWEbRljxbNQ7HXWjC0ylLFKoFrslN2XXGe01deCLC8/4m1eg6LtmPCDmg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p4GrurUNs6i9HrUrByranfFHOhS17vcsTk8WiYceTu++VRaXo9q4sSkot5Y1qdcPyaPlHdOEqi+l+tEz8lw03HL6rJ90FfGCnvK0JrWMyf5bMiF2TDPQEqa5WTkkOdZcoaqCnMwpLLXRkin3eEVveEp6y0ZcNzYa4SPr7k3uIaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0e06b636ee60a05cb617e88cdebdc3565785f62" Description="" Url=""><as:assemblyIdentity name="Water Board Management.exe" version="1.0.0.0" publicKeyToken="3c72dc10a8048eb4" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Yasura-Laptop\Yasura</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>19iia70sRYUN8sfJfH+mvOctPVA=</DigestValue></Reference></SignedInfo><SignatureValue>Ul/GtEwibz3l8oR8JeaK9Au7SaTKkgQl1UipN1FsW1K6gSKXo8Kah30AXJlV0HpQWlXgLpOubhIQxQoLVrhO17fsoHHPJHpmz2usGQHaaUiQtI9hMOInieAFKlo7cPWw+RaSwiVgH4ziDCTwNpi/dRjT16CpvHSFRV6TBb3fsVA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p4GrurUNs6i9HrUrByranfFHOhS17vcsTk8WiYceTu++VRaXo9q4sSkot5Y1qdcPyaPlHdOEqi+l+tEz8lw03HL6rJ90FfGCnvK0JrWMyf5bMiF2TDPQEqa5WTkkOdZcoaqCnMwpLLXRkin3eEVveEp6y0ZcNzYa4SPr7k3uIaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQSaSSFnq6279LEhBHblBUpDANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAWQBhAHMAdQByAGEALQBMAGEAcAB0AG8AcABcAFkAYQBzAHUAcgBhMB4XDTEyMDMxMzExMTEwN1oXDTEzMDMxMzE3MTEwN1owMzExMC8GA1UEAx4oAFkAYQBzAHUAcgBhAC0ATABhAHAAdABvAHAAXABZAGEAcwB1AHIAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAp4GrurUNs6i9HrUrByranfFHOhS17vcsTk8WiYceTu++VRaXo9q4sSkot5Y1qdcPyaPlHdOEqi+l+tEz8lw03HL6rJ90FfGCnvK0JrWMyf5bMiF2TDPQEqa5WTkkOdZcoaqCnMwpLLXRkin3eEVveEp6y0ZcNzYa4SPr7k3uIaUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBGklY+6CjgTlLGD7dDowIQs9Ud4W+cL6VZB6Y0Lm2dF4Ms4t1N7RGUU6vfb7IODktlfWzAVKGAWY6lB0XGGnI345LO6VhZPUJfos8Osi7BXhkruNpfxM3A7oaHb2wXL6Xr7/JQQUlZzXpdebvC0YWLlelpApQtS/3J54O0cNazqQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
